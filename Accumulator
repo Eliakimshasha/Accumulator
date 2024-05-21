@@ -1,0 +1,12 @@
+public class SimpleAccumulator {
+
+  private int sum = 0;
+
+  public void add(int value) {
+    sum += value;
+  }
+
+  public int getResult() {
+    return sum;
+  }
+}
